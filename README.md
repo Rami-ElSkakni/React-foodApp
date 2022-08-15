@@ -1,0 +1,1 @@
+This website is a food app that was made using react that accepts orders from customers and stores those orders in a cart. The website is completely responsive allowing you to add and remove items easily with a nice UI.
