@@ -11,7 +11,9 @@ export default function Cart(props) {
   ]
 
   return (
-    <div className={style.modal}>
+    <div>
+      <div className={style.backdrop}></div>
+      <div className={style.modal}>
        {props.cartItems.map((item) => {
           return <CartItem 
                 key = {item.id}
@@ -34,6 +36,7 @@ export default function Cart(props) {
          <button onClick = {closeHandler}>Close</button>
          <button  className = {classes.button}>Order</button>  
        </div>
+    </div>
     </div>
   )
 }

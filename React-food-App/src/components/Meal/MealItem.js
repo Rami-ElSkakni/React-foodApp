@@ -6,7 +6,7 @@ export default function MealItem(props) {
   return (
    <>
     <div className = {Classes.meal}>
-        <h3>{props.name}</h3><br></br>
+        <h3 className={Classes.mealName}>{props.name}</h3><br></br>
         <p className = {Classes.description}>{props.description}</p><br></br>
         <p className = {Classes.price}>${props.price}</p>
         <MealItemForm name = {props.name} onCartItems = {props.onCartItems} price = {props.price} id = {props.id}></MealItemForm>

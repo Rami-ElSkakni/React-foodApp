@@ -22,8 +22,7 @@ export default function Input(props) {
   return (
     <>
         <div className={Classes.input}>
-            <label>
-                Amount 
+            <label> 
                 <input type="number"  onChange = {inputValHandler} value = {inputVal} min = "1" />
             </label>
         </div>
