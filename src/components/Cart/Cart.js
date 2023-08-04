@@ -12,7 +12,7 @@ export default function Cart(props) {
 
   return (
     <div>
-      <div className={style.backdrop}></div>
+      <div onClick={() => props.onRemoveCart()} className={style.backdrop}></div>
       <div className={style.modal}>
        {props.cartItems.map((item) => {
           return <CartItem 
