@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import classes from './Cart.module.css'
 import CartItem from './CartItem'
 import style from './Modal.module.css'

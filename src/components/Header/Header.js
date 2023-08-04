@@ -1,9 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import classes from "./Header.module.css";
 import styles from "./HeaderCartButton.module.css";
 import MealSummary from "./MealSummary";
 import CartIcon from "../Cart/CartIcon";
-import Card from "../Card/Card";
 export default function Header(props) {
 
  

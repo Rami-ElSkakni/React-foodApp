@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Header from "./components/Header/Header";
 import AvailableMeals from "./components/Meal/AvailableMeals";
 import Cart from "./components/Cart/Cart";
-import Classes from './components/Cart/Modal.module.css'
 const DUMMY_MEALS = [
   {
     id: 'm1',

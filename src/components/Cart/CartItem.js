@@ -1,6 +1,4 @@
-import { useState } from "react";
 import classes from "./CartItem.module.css";
-import Card from "../Card/Card";
 const CartItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
 
